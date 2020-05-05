@@ -6,7 +6,7 @@ AM_CPPFLAGS = -I$(top_srcdir)/libde265 -I$(top_srcdir)
 enc265_DEPENDENCIES = ../libde265/libde265.la
 enc265_CXXFLAGS =
 enc265_LDFLAGS =
-enc265_LDADD = ../libde265/libde265.la -lstdc++
+enc265_LDADD = ../libde265/libde265.la
 enc265_SOURCES = enc265.cc image-io-png.cc image-io-png.h
 
 if HAVE_VIDEOGFX
